@@ -20,10 +20,10 @@ The approach is as follows:
 5. Add the value to the linked list.
 
 ## Time Complexity
-**Union**: *O(n⋅m)*.
-**Intersection**: *O(n⋅m)*.
-*where n is the size of the first list and m is the size of the second list.*
+**Union**: *O(n⋅m)*.  
+**Intersection**: *O(n⋅m)*.  
+*where n is the size of the first list and m is the size of the second list.*  
 
 ## Space Complexity
-**Union**: *O(n⋅m)*.
-**Intersection**: *O(2n)* in the worst case if `list1 == list2`.
+**Union**: *O(n⋅m)*.  
+**Intersection**: *O(2n)* in the worst case if `list1 == list2`.  
