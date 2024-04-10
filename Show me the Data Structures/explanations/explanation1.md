@@ -14,4 +14,4 @@ So, I came up with the idea of creating a pipe, which is a Double Stack, where b
 
 ## Space Complexity
 
-*O(1)* for all operations except the LRU Cache itself. It would be *O(2n)* as the worst case, where n is the capacity, both for `self.sequence` and `self.arr`.
+*O(1)* for all operations except the LRU Cache itself which is *O(2n)* as the worst case, where n is the capacity, both for `self.sequence` and `self.arr`.
