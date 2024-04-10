@@ -1,0 +1,8 @@
+// I will not calculate the file reading, though they should be O(r*c) for each file where r is the number of rows and c is the number of columns
+
+Task 0: O(1) Accessing items in list is constant.
+Task 1: O(4n) where each 2n for each loop assuming the add method and len function complexity are O(1).
+Task 2: O(3n) where 2n for loops and n for max function assuming the dictionary get item in constant time and it can be shortnard to O(n).
+Task 3 A: O(2n + nlogn) n is the number of records in calls since startswith method can be considered as constant same goes for indexing ")" since we guarantee it exists withn the next 3 or 4 characters. n*logn for sorting. 
+Task 3 B: o(n) in average and O(2n) in worst case if percentage is 100%.
+Task 4: O(2n + m + n*logn) where n is length of calls, m is length of texts, and the other n is time taken to substract sets (length of calls. n*logn for sorting.
